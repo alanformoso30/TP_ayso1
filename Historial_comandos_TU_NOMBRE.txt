@@ -1,0 +1,72 @@
+ssh-keygen
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+repogit
+cd repogit
+git clone git@github.com:alanformoso30/TP_ayso1.git 
+sudo apt update
+4524
+git clone git@github.com:alanformoso30/TP_ayso1.git
+sudo apt update
+sudo apt install git
+git --version
+git clone git@github.com:alanformoso30/TP_ayso1.git
+cd TP_ayso1
+ls
+vboxalan@alanf:~/repogit$
+git clone git@github.com:alanformoso30/TP_ayso1.git
+ls ~/.ssh
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+ssh-keygen -t ed25519
+[200~eval "$(ssh-agent -s)"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+ssh-keygen -t ed25519 -f ~/.ssh/id_nueva
+ssh-add ~/.ssh/id_nueva
+ssh -T git@github.com
+ssh-add ~/.ssh/id_nueva
+ssh -i ~/.ssh/id_nueva -T git@github.com
+cat ~/.ssh/id_nueva.pub
+ssh -T git@github.com
+git clone git@github.com:alanformoso30/TP_ayso1.git
+cd TP_ayso1
+echo "TP AySO funcionando" > README.md
+git add .
+git commit -m "primer trabajo"
+git push
+git config --global user.name "alan formoso"
+git config --global user.email "alanformoso30@gmail.com"
+echo "TP AySO funcionando" > README.md
+git add .
+git commit -m "primer trabajo"
+git push
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+pwd
+ls
+git add .
+git commit -m "ADD: agregado ejercicio datos_usuario.txt"
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat <<EOF > README.md
+Alumno: alan formoso
+División: 315
+Turno: Noche
+EOF
+
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
